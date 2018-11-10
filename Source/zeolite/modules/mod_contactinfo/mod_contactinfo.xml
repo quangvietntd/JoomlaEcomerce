@@ -1,0 +1,104 @@
+<?xml version="2.5" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Contact Information Module</name>
+	<author>Edward Cupler</author>
+	<creationDate>April 2008</creationDate>
+	<copyright>(C) 2008 Digital Greys. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>ecupler@digitalgreys.com</authorEmail>
+	<authorUrl>www.digitalgreys.com</authorUrl>
+	<version>2.3</version>
+	<description>DESCINFO</description>
+	 <files>
+		<filename module="mod_contactinfo">mod_contactinfo.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_contactinfo.ini</language>
+	</languages>
+	<params>
+		<param name="layout_style" type="radio" default="SeperateLines" label="Layout Style" description="The layout style">
+			<option value="SeperateLines">Seperate Lines</option>
+			<option value="OneLine">One Line</option>
+		</param>
+		<param name="separate_code" type="list" default="vert_indent" label="Separator Code" description="The code used to separate each contact">
+			<option value="div">Div</option>
+			<option value="hr">Horizontal Rule</option>
+			<option value="br">Break Tag</option>
+			<option value="none">None</option>
+		</param>
+		<param name="link_to" type="radio" default="1" label="Link Name to Contact Page" description="Select yes to make the Contact Name link to the contacts page.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="link_website" type="radio" default="1" label="Link To Website" description="Select yes to make the Website Address link to the contact website.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="website_target" type="radio" default="0" label="Open Website In New Window" description="Select to make  Website open in new window.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="contact_cid" type="text" default="" label="Contact ID's (seperate each ID with a comma)" description="Reference the contact ID's you want to display from the Joomla Contacts component in the order you want them listed. IMPORTANT! (seperate each ID with a comma)." />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="show_name" type="radio" default="0" label="Display Name" description="Display contact name.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_alias" type="radio" default="0" label="Display Alias" description="Display contact alias.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="con_position" type="radio" default="0" label="Display Contact Position" description="Display Contact Position.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_address" type="radio" default="0" label="Display Address" description="Display contact address.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_suburb" type="radio" default="0" label="Display Suburb" description="Display contact suburb.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_state" type="radio" default="0" label="Display State" description="Display contact state.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_postcode" type="radio" default="0" label="Display Postcode" description="Display contact postcode.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_country" type="radio" default="0" label="Display Country" description="Display contact country.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_telephone" type="radio" default="0" label="Display Telephone" description="Display contact telephone.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_mobile" type="radio" default="0" label="Display Mobile Telephone" description="Display contact mobile telephone.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_fax" type="radio" default="0" label="Display Fax" description="Display contact fax.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="show_email_to" type="radio" default="0" label="Display Email" description="Display contact Email.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="email_text" type="text" default="" label="Displayed Email Text" description="Leave blank to use address as displayed text.">
+		</param>
+		<param name="show_webpage" type="radio" default="0" label="Display Website Address" description="Display website address.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_misc" type="radio" default="0" label="Display Miscellaneous Info" description="Display contact miscellaneous info.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</install>

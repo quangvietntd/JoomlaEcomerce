@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>MaxDesign floating ad - Quang Cao 2 ben trang web </name>
+	<author>MrCchu</author>
+	<creationDate>August 2009</creationDate>
+	<copyright>Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>chuvantai@gmail.com</authorEmail>
+	<authorUrl>www.maxdesign.vn</authorUrl>
+	<version>1.0.0</version>
+	<description>Display ad and floats two side of your website</description>
+	<files>
+	<filename module="mod_maxdesign_float_ad">mod_maxdesign_float_ad.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />										
+		<param name="Lcontent" type="textarea" default="&lt;a href='http://maxdesign.vn' target='_blank'&gt;&lt;img src='http://maxdesign.vn/images/banners/float-left-ad.gif'>&lt;/a&gt;" label="Left Content" description="Content will be display on Left side" rows="10" cols="30" />
+		<param name="Rcontent" type="textarea" default="&lt;a href='http://maxdesign.vn' target='_blank'&gt;&lt;img src='http://maxdesign.vn/images/banners/float-right-ad.gif'>&lt;/a&gt;" label="Right Content" description="Content will be display on Right side" rows="10"
+ cols="30" />
+ 	<param name="ContentW" type="text" default="80" label="Content Width" description="Slide Content's Width" />		
+	<param name="BodyW" type="text" default="900" label="Body Width" description="Body site's Width" />	
+	</params>
+	
+	<params group="advanced">
+	<param name="Mtop" type="text" default="50" label="Margin top" description="" />		
+	<param name="Mleft" type="text" default="0" label="Margin left" description="" />		
+	<param name="Mright" type="text" default="0" label="Margin right" description="" />		
+	
+	</params>
+</install>

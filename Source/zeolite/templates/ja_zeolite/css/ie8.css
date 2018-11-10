@@ -1,0 +1,17 @@
+body#bd {
+	text-align: center;
+}
+
+#ja-mainnav,
+#ja-header,
+#ja-topsl,
+#ja-botsl,
+#ja-container,
+#ja-footer {
+	text-align: left;
+}
+
+#ja-container {
+	width: 951px;
+      
+}
